@@ -9,17 +9,17 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
-    open-pull-requests-limit: 1000
+    open-pull-requests-limit: 10
     assignees:
-      - "Lruihao"
+      - "attajaj"
     labels:
       - "dependencies"
   - package-ecosystem: "gomod" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
-      interval: "monthly"
-    open-pull-requests-limit: 1000
+      interval: "daily"
+    open-pull-requests-limit: 10
     assignees:
-      - "Lruihao"
+      - "attajak"
     labels:
       - "dependencies"

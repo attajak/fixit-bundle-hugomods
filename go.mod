@@ -1,8 +1,5 @@
 module github.com/attajak/hugo-fixit
 
-go 1.19
+go 1.24.0
 
-require (
-	github.com/hugo-fixit/FixIt v0.3.16 // indirect
-	github.com/hugo-fixit/shortcode-docs-bookmark v1.0.3 // indirect
-)
+require github.com/hugo-fixit/fixit-bundle v1.4.4 // indirect

@@ -1,6 +1,6 @@
 # Hugo FixIt Blog Template (Go)
 
-👉 English | [简体中文](README.md)
+👉 English | [简体中文](README.cn.md)
 
 This is a quick start template for Hugo theme [FixIt](https://github.com/hugo-fixit/FixIt). It uses [Hugo Modules](https://gohugo.io/hugo-modules/) feature to load the theme. If you favor Git more, you can [check this template](https://github.com/hugo-fixit/hugo-fixit-starter1).
 
