@@ -8,6 +8,9 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   Update-FixIt-bundle:
     runs-on: ubuntu-latest
@@ -27,7 +30,10 @@ jobs:
           hugo mod tidy
           hugo mod graph
 
-      - name: Generate hugo-fixit component list                uses: hugo-fixit/action-component-list@v1               env:                                                      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Generate hugo-fixit component list
+        uses: hugo-fixit/action-component-list@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           comment_tag_name: HUGO_FIXIT_COMPONENTS
           readme_path: README.md
