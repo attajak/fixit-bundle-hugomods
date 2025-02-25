@@ -1,0 +1,31 @@
+- title: My developed
+  description: Below are some open source works I have developed.
+  contentAdapters: false
+  params:
+    hiddenFromHomePage: true
+  categories:
+    - foo
+  collections:
+    - developed
+  # whether to count total stars
+  totalStars: false
+  # Order by, optional values: ['default', 'name', 'star', 'fork']
+  orderby: default
+  # Order of repos, optional values: ['asc', 'desc']
+  order: asc
+  repos:
+    - hugo-fixit/FixIt
+- title: My contributed
+  description: Below are some open source works I have contributed to.
+  contentAdapters: false
+  params:
+    hiddenFromHomePage: true
+  categories:
+    - bar
+  collections:
+    - contributed
+  totalStars: false
+  orderby: default
+  order: asc
+  repos:
+    - gohugoio/hugo
