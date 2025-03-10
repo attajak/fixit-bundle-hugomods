@@ -10,7 +10,7 @@
 - [hugo-atom-feed](https://github.com/hugo-fixit/hugo-atom-feed)\n Hugo theme component for ATOM feed custom Output Format.
 - [hugo-json-feed](https://github.com/hugo-fixit/hugo-json-feed)\n Hugo theme component for JSON feed custom Output Format.
 - [shortcode-asciinema](https://github.com/hugo-fixit/shortcode-asciinema)\n A Hugo theme component with asciinema-embed shortcode.
-- [shortcode-caniuse](https://github.com/hugo-fixit/shortcode-caniuse)\n 一个含有 caniuse shortcode 的 Hugo 主题组件。
+- [shortcode-caniuse](https://github.com/hugo-fixit/shortcode-caniuse)\n 一个含有 caniuse shortcode 的 Hugo ��题组件。
 - [shortcode-docs-bookmark](https://github.com/hugo-fixit/shortcode-docs-bookmark)\n 🔖 Embed bookmark of FixIt Docs.
 - [shortcode-rewards](https://github.com/hugo-fixit/shortcode-rewards)\n A Hugo theme component with reward-log or sponsor-log shortcode.
 <!-- HUGO_FIXIT_COMPONENTS:END -->
