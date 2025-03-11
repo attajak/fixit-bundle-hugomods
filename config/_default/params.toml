@@ -117,7 +117,7 @@ disableThemeInject = false
     # URL of the LOGO
     logo = "/images/fixit.min.svg"
     # title name
-    name = ""
+    name = "Hugo FixIt blog"
     # you can add extra information before the name (HTML format is supported), such as icons
     pre = ""
     # you can add extra information after the name (HTML format is supported), such as icons
@@ -169,7 +169,7 @@ disableThemeInject = false
     themeLogo = true
   # FixIt 0.2.17 | CHANGED Site creation time
   [footer.siteTime]
-    enable = false
+    enable = true
     animate = true
     icon = "fa-solid fa-heartbeat"
     pre = ""
@@ -177,10 +177,10 @@ disableThemeInject = false
   # FixIt 0.2.17 | NEW footer lines order, optional values: ["first", 0, 1, 2, 3, 4, 5, "last"]
   [footer.order]
     powered = 0
-    copyright = 0
-    statistics = 0
-    visitor = 0
-    beian = 0
+    copyright = 1
+    statistics = 2
+    visitor = 3
+    beian = 4
 
 # FixIt 0.3.0 | NEW Archives page config (all pages of posts type)
 [archives]
