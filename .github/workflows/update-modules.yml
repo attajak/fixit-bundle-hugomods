@@ -38,8 +38,7 @@ jobs:
           comment_tag_name: HUGO_FIXIT_COMPONENTS
           readme_path: README.md
           # exclude_repos: 'fixit-bundle'
-          template: "- [{$repo.name}]({$repo.html_url})\
-\\n {$repo.description}"
+          template: "- [{$repo.name}]({$repo.html_url})\\\n {$repo.description}"
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
