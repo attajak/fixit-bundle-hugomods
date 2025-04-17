@@ -1,6 +1,7 @@
 # Hugo-FixIt
 
 ## Hugo FixIt components
+
 <!-- HUGO_FIXIT_COMPONENTS:START -->
 - [fixit-bundle](https://github.com/hugo-fixit/fixit-bundle)\
  🌲 Bundles the FixIt core theme and all hugo-fixit components into a single component.
